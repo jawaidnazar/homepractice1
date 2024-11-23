@@ -11,20 +11,20 @@ export default function PostCard() {
             lg:flex-cols-3 gap-4">
                 <Image src="/banner.png"
                 alt="Image"
-                width={300}
-                height={400} />
+                width={150}
+                height={80} />
 
                 <Image src="/cool.png"
                 alt="Image"
-                width={300}
-                height={200}
-                className="md:flex w-6/12
-                lg:flex w-6/12" />
+                width={150}
+                height={80}
+                className="md:flex w-5/12
+                lg:flex w-5/12" />
 
                   <Image src="/item.png"
                 alt="Image"
-                width={300}
-                height={200}
+                width={150}
+                height={80}
                 className="lg:flex md:hidden " />
 
             </div>
